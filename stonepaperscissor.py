@@ -36,7 +36,7 @@ while chances!=0:
     else:
         chances-=1
         player_win+=1
-        print("Player played:",player)
+        print("Computer played:",player)
         print(new_player,"played :", computer)
         print("***********",new_player," wins************")
     computer=random.choice(games)
